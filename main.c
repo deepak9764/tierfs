@@ -182,7 +182,7 @@ void wrapfs_tier_mount(char * parse_string)
 	root_sb=tier[0].mnt->mnt_parent->mnt_sb;
 
 	/*point the private field of that superblock to array of path structures-tier*/
-	WRAPFS_SB(root_sb)->abhi_pvt=tier;
+	WRAPFS_SB(root_sb)->pvt_data=tier;
 	
 	/*for(i=0;i<n+1;i++)
 	{

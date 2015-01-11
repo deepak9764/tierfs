@@ -78,7 +78,7 @@ struct wrapfs_dentry_info {
 /* wrapfs super-block data in memory */
 struct wrapfs_sb_info {
 	struct super_block *lower_sb;
-	void * abhi_pvt;    //##########added by abhilash#############
+	void * pvt_data;    //##########added by abhilash#############
 };
 
 /*
