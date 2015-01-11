@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+UDBG	wrapfs.h	36;"	d
+WRAPFS_D	wrapfs.h	96;"	d
+WRAPFS_F	wrapfs.h	102;"	d
+WRAPFS_I	wrapfs.h	/^static inline struct wrapfs_inode_info *WRAPFS_I(const struct inode *inode)$/;"	f
+WRAPFS_NAME	wrapfs.h	30;"	d
+WRAPFS_ROOT_INO	wrapfs.h	33;"	d
+WRAPFS_SB	wrapfs.h	99;"	d
+WRAPFS_VERSION	Makefile	/^WRAPFS_VERSION="0.1"$/;"	m
+_WRAPFS_H_	wrapfs.h	13;"	d
+__this_module	wrapfs.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	wrapfs.mod.c	/^__used$/;"	v	file:
+__used	wrapfs.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__wrapfs_lookup	lookup.c	/^static struct dentry *__wrapfs_lookup(struct dentry *dentry, int flags,$/;"	f	file:
+exit_wrapfs_fs	main.c	/^module_exit(exit_wrapfs_fs);$/;"	v
+exit_wrapfs_fs	main.c	/^static void __exit exit_wrapfs_fs(void)$/;"	f	file:
+free_dentry_private_data	lookup.c	/^void free_dentry_private_data(struct dentry *dentry)$/;"	f
+init_once	super.c	/^static void init_once(void *obj)$/;"	f	file:
+init_wrapfs_fs	main.c	/^module_init(init_wrapfs_fs);$/;"	v
+init_wrapfs_fs	main.c	/^static int __init init_wrapfs_fs(void)$/;"	f	file:
+lock	wrapfs.h	/^	spinlock_t lock;	\/* protects lower_path *\/$/;"	m	struct:wrapfs_dentry_info
+lock_parent	wrapfs.h	/^static inline struct dentry *lock_parent(struct dentry *dentry)$/;"	f
+lower_file	wrapfs.h	/^	struct file *lower_file;$/;"	m	struct:wrapfs_file_info	typeref:struct:wrapfs_file_info::file
+lower_inode	wrapfs.h	/^	struct inode *lower_inode;$/;"	m	struct:wrapfs_inode_info	typeref:struct:wrapfs_inode_info::inode
+lower_path	wrapfs.h	/^	struct path lower_path;$/;"	m	struct:wrapfs_dentry_info	typeref:struct:wrapfs_dentry_info::path
+lower_sb	wrapfs.h	/^	struct super_block *lower_sb;$/;"	m	struct:wrapfs_sb_info	typeref:struct:wrapfs_sb_info::super_block
+lower_vm_ops	wrapfs.h	/^	const struct vm_operations_struct *lower_vm_ops;$/;"	m	struct:wrapfs_file_info	typeref:struct:wrapfs_file_info::vm_operations_struct
+new_dentry_private_data	lookup.c	/^int new_dentry_private_data(struct dentry *dentry)$/;"	f
+obj-m	Makefile	/^obj-m := wrapfs.o$/;"	m
+pathcpy	wrapfs.h	/^static inline void pathcpy(struct path *dst, const struct path *src)$/;"	f
+unlock_dir	wrapfs.h	/^static inline void unlock_dir(struct dentry *dir)$/;"	f
+vfs_inode	wrapfs.h	/^	struct inode vfs_inode;$/;"	m	struct:wrapfs_inode_info	typeref:struct:wrapfs_inode_info::inode
+wrapfs-objs	Makefile	/^wrapfs-objs := dentry.o file.o inode.o main.o super.o lookup.o mmap.o$/;"	m
+wrapfs_aio_read	file.c	/^static ssize_t wrapfs_aio_read(struct kiocb *iocb, const struct iovec *iov,$/;"	f	file:
+wrapfs_aio_write	file.c	/^static ssize_t wrapfs_aio_write(struct kiocb *iocb, const struct iovec *iov,$/;"	f	file:
+wrapfs_alloc_inode	super.c	/^static struct inode *wrapfs_alloc_inode(struct super_block *sb)$/;"	f	file:
+wrapfs_aops	mmap.c	/^const struct address_space_operations wrapfs_aops = {$/;"	v	typeref:struct:address_space_operations
+wrapfs_clear_inode	super.c	/^static void wrapfs_clear_inode(struct inode *inode)$/;"	f	file:
+wrapfs_create	inode.c	/^static int wrapfs_create(struct inode *dir, struct dentry *dentry,$/;"	f	file:
+wrapfs_d_alloc_root	main.c	/^static struct dentry *wrapfs_d_alloc_root(struct super_block *sb)$/;"	f	file:
+wrapfs_d_release	dentry.c	/^static void wrapfs_d_release(struct dentry *dentry)$/;"	f	file:
+wrapfs_d_revalidate	dentry.c	/^static int wrapfs_d_revalidate(struct dentry *dentry, struct nameidata *nd)$/;"	f	file:
+wrapfs_dentry_cachep	lookup.c	/^static struct kmem_cache *wrapfs_dentry_cachep;$/;"	v	typeref:struct:kmem_cache	file:
+wrapfs_dentry_info	wrapfs.h	/^struct wrapfs_dentry_info {$/;"	s
+wrapfs_destroy_dentry_cache	lookup.c	/^void wrapfs_destroy_dentry_cache(void)$/;"	f
+wrapfs_destroy_inode	super.c	/^static void wrapfs_destroy_inode(struct inode *inode)$/;"	f	file:
+wrapfs_destroy_inode_cache	super.c	/^void wrapfs_destroy_inode_cache(void)$/;"	f
+wrapfs_dir_fops	file.c	/^const struct file_operations wrapfs_dir_fops = {$/;"	v	typeref:struct:file_operations
+wrapfs_dir_iops	inode.c	/^const struct inode_operations wrapfs_dir_iops = {$/;"	v	typeref:struct:inode_operations
+wrapfs_direct_IO	mmap.c	/^static ssize_t wrapfs_direct_IO(int rw, struct kiocb *iocb,$/;"	f	file:
+wrapfs_dops	dentry.c	/^const struct dentry_operations wrapfs_dops = {$/;"	v	typeref:struct:dentry_operations
+wrapfs_fasync	file.c	/^static int wrapfs_fasync(int fd, struct file *file, int flag)$/;"	f	file:
+wrapfs_fault	mmap.c	/^static int wrapfs_fault(struct vm_area_struct *vma, struct vm_fault *vmf)$/;"	f	file:
+wrapfs_file_info	wrapfs.h	/^struct wrapfs_file_info {$/;"	s
+wrapfs_file_llseek	file.c	/^static loff_t wrapfs_file_llseek(struct file *file, loff_t offset, int whence)$/;"	f	file:
+wrapfs_file_release	file.c	/^static int wrapfs_file_release(struct inode *inode, struct file *file)$/;"	f	file:
+wrapfs_flush	file.c	/^static int wrapfs_flush(struct file *file, fl_owner_t id)$/;"	f	file:
+wrapfs_follow_link	inode.c	/^static void *wrapfs_follow_link(struct dentry *dentry, struct nameidata *nd)$/;"	f	file:
+wrapfs_fs_type	main.c	/^static struct file_system_type wrapfs_fs_type = {$/;"	v	typeref:struct:file_system_type	file:
+wrapfs_fsync	file.c	/^static int wrapfs_fsync(struct file *file, struct dentry *dentry, int datasync)$/;"	f	file:
+wrapfs_get_lower_path	wrapfs.h	/^static inline void wrapfs_get_lower_path(const struct dentry *dent,$/;"	f
+wrapfs_get_sb	main.c	/^static int wrapfs_get_sb(struct file_system_type *fs_type,$/;"	f	file:
+wrapfs_getxattr	inode.c	/^wrapfs_getxattr(struct dentry *dentry, const char *name, void *buffer,$/;"	f	file:
+wrapfs_iget	lookup.c	/^static struct inode *wrapfs_iget(struct super_block *sb,$/;"	f	file:
+wrapfs_init_dentry_cache	lookup.c	/^int wrapfs_init_dentry_cache(void)$/;"	f
+wrapfs_init_inode_cache	super.c	/^int wrapfs_init_inode_cache(void)$/;"	f
+wrapfs_inode_cachep	super.c	/^static struct kmem_cache *wrapfs_inode_cachep;$/;"	v	typeref:struct:kmem_cache	file:
+wrapfs_inode_info	wrapfs.h	/^struct wrapfs_inode_info {$/;"	s
+wrapfs_inode_set	lookup.c	/^static int wrapfs_inode_set(struct inode *inode, void *lower_inode)$/;"	f	file:
+wrapfs_inode_test	lookup.c	/^static int wrapfs_inode_test(struct inode *inode, void *candidate_lower_inode)$/;"	f	file:
+wrapfs_interpose	lookup.c	/^int wrapfs_interpose(struct dentry *dentry, struct super_block *sb,$/;"	f
+wrapfs_ioctl	file.c	/^static long wrapfs_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+wrapfs_link	inode.c	/^static int wrapfs_link(struct dentry *old_dentry, struct inode *dir,$/;"	f	file:
+wrapfs_listxattr	inode.c	/^wrapfs_listxattr(struct dentry *dentry, char *buffer, size_t buffer_size)$/;"	f	file:
+wrapfs_lookup	lookup.c	/^struct dentry *wrapfs_lookup(struct inode *dir, struct dentry *dentry,$/;"	f
+wrapfs_lower_file	wrapfs.h	/^static inline struct file *wrapfs_lower_file(const struct file *f)$/;"	f
+wrapfs_lower_inode	wrapfs.h	/^static inline struct inode *wrapfs_lower_inode(const struct inode *i)$/;"	f
+wrapfs_lower_super	wrapfs.h	/^static inline struct super_block *wrapfs_lower_super($/;"	f
+wrapfs_main_fops	file.c	/^const struct file_operations wrapfs_main_fops = {$/;"	v	typeref:struct:file_operations
+wrapfs_main_iops	inode.c	/^const struct inode_operations wrapfs_main_iops = {$/;"	v	typeref:struct:inode_operations
+wrapfs_mkdir	inode.c	/^static int wrapfs_mkdir(struct inode *dir, struct dentry *dentry, int mode)$/;"	f	file:
+wrapfs_mknod	inode.c	/^static int wrapfs_mknod(struct inode *dir, struct dentry *dentry, int mode,$/;"	f	file:
+wrapfs_mmap	file.c	/^static int wrapfs_mmap(struct file *file, struct vm_area_struct *vma)$/;"	f	file:
+wrapfs_open	file.c	/^static int wrapfs_open(struct inode *inode, struct file *file)$/;"	f	file:
+wrapfs_page_mkwrite	mmap.c	/^static int wrapfs_page_mkwrite(struct vm_area_struct *vma,$/;"	f	file:
+wrapfs_parse_tiers	main.c	/^void wrapfs_parse_tiers(char * parse_string)$/;"	f
+wrapfs_permission	inode.c	/^static int wrapfs_permission(struct inode *inode, int mask)$/;"	f	file:
+wrapfs_put_link	inode.c	/^static void wrapfs_put_link(struct dentry *dentry, struct nameidata *nd,$/;"	f	file:
+wrapfs_put_lower_path	wrapfs.h	/^static inline void wrapfs_put_lower_path(const struct dentry *dent,$/;"	f
+wrapfs_put_reset_lower_path	wrapfs.h	/^static inline void wrapfs_put_reset_lower_path(const struct dentry *dent)$/;"	f
+wrapfs_put_super	super.c	/^static void wrapfs_put_super(struct super_block *sb)$/;"	f	file:
+wrapfs_read	file.c	/^static ssize_t wrapfs_read(struct file *file, char __user *buf,$/;"	f	file:
+wrapfs_read_super	main.c	/^static int wrapfs_read_super(struct super_block *sb, void *raw_data, int silent)$/;"	f	file:
+wrapfs_readdir	file.c	/^static int wrapfs_readdir(struct file *file, void *dirent, filldir_t filldir)$/;"	f	file:
+wrapfs_readlink	inode.c	/^static int wrapfs_readlink(struct dentry *dentry, char __user *buf, int bufsiz)$/;"	f	file:
+wrapfs_remount_fs	super.c	/^static int wrapfs_remount_fs(struct super_block *sb, int *flags, char *options)$/;"	f	file:
+wrapfs_removexattr	inode.c	/^wrapfs_removexattr(struct dentry *dentry, const char *name)$/;"	f	file:
+wrapfs_rename	inode.c	/^static int wrapfs_rename(struct inode *old_dir, struct dentry *old_dentry,$/;"	f	file:
+wrapfs_reset_lower_path	wrapfs.h	/^static inline void wrapfs_reset_lower_path(const struct dentry *dent)$/;"	f
+wrapfs_rmdir	inode.c	/^static int wrapfs_rmdir(struct inode *dir, struct dentry *dentry)$/;"	f	file:
+wrapfs_sb_info	wrapfs.h	/^struct wrapfs_sb_info {$/;"	s
+wrapfs_set_lower_file	wrapfs.h	/^static inline void wrapfs_set_lower_file(struct file *f, struct file *val)$/;"	f
+wrapfs_set_lower_inode	wrapfs.h	/^static inline void wrapfs_set_lower_inode(struct inode *i, struct inode *val)$/;"	f
+wrapfs_set_lower_path	wrapfs.h	/^static inline void wrapfs_set_lower_path(const struct dentry *dent,$/;"	f
+wrapfs_set_lower_super	wrapfs.h	/^static inline void wrapfs_set_lower_super(struct super_block *sb,$/;"	f
+wrapfs_setattr	inode.c	/^static int wrapfs_setattr(struct dentry *dentry, struct iattr *ia)$/;"	f	file:
+wrapfs_setxattr	inode.c	/^wrapfs_setxattr(struct dentry *dentry, const char *name, const void *value,$/;"	f	file:
+wrapfs_sops	super.c	/^const struct super_operations wrapfs_sops = {$/;"	v	typeref:struct:super_operations
+wrapfs_statfs	super.c	/^static int wrapfs_statfs(struct dentry *dentry, struct kstatfs *buf)$/;"	f	file:
+wrapfs_symlink	inode.c	/^static int wrapfs_symlink(struct inode *dir, struct dentry *dentry,$/;"	f	file:
+wrapfs_symlink_iops	inode.c	/^const struct inode_operations wrapfs_symlink_iops = {$/;"	v	typeref:struct:inode_operations
+wrapfs_umount_begin	super.c	/^static void wrapfs_umount_begin(struct super_block *sb)$/;"	f	file:
+wrapfs_unlink	inode.c	/^static int wrapfs_unlink(struct inode *dir, struct dentry *dentry)$/;"	f	file:
+wrapfs_vm_ops	mmap.c	/^const struct vm_operations_struct wrapfs_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct
+wrapfs_write	file.c	/^static ssize_t wrapfs_write(struct file *file, const char __user *buf,$/;"	f	file:
